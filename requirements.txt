@@ -1,0 +1,14 @@
+langgraph
+langchain
+langchain-community
+langchain-openai
+sqlalchemy
+pandas
+plotly
+matplotlib
+fastapi
+uvicorn
+python-dotenv
+openpyxl
+tabulate
+streamlit

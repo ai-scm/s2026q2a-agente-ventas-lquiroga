@@ -1,0 +1,15 @@
+version: '3.3'
+
+services:
+  agente:
+    build: .
+    container_name: agente_ventas
+
+    ports:
+      - "8501:8501"
+
+    volumes:
+      - .:/app
+
+    env_file:
+      - .env
